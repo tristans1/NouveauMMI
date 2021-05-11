@@ -1,0 +1,49 @@
+<ion-header>
+
+  <ion-navbar>
+
+    <ion-title>Accueil</ion-title>
+  </ion-navbar>
+</ion-header>
+<button ion-button menuToggle>
+  <ion-icon name="menu" style="padding-left: 20px"></ion-icon>
+</button>
+<ion-content padding>
+
+  <div class="presentation">
+    <img [src]="Logo"/>
+    <h1>Bienvenue en MMI</h1>
+    <i class="fas fa-angle-down"></i>
+
+  </div>
+
+
+  <div class="explication">
+    <section class="textepresentation">
+      <h2>Que doit tu savoir sur le DUT MMI</h2>
+      <p>Bienvenue a toi jeune MMI. Si tu es ici c'est sûrement car tu veux avoir des informations diverses sur ce DUT.
+        Je te propose donc de parcourir cette application pour trouver les diverses informations que tu recherches.</p>
+    </section>
+
+    <div class="info">
+      <h2>À quoi sert cette application ?</h2>
+      <p>
+        Comme tu as pu surement le remarquer ce campus propose de nombreux avantages comme l’accès à un Wi-Fi gratuit,
+        ou encore réserver à la Bibliothèque Universitaire (BU). Au sein de cette application tu retrouveras les
+        avantages que tu peux bénéficier ainsi que d’autres informations.</p>
+    </div>
+
+    <div class="mail">
+      <h2>Envoyez-nous un mail</h2>
+      <p>N’hésite pas à nous envoyer un mail si tu ne trouves pas les réponses que tu cherchais.</p>
+
+      <button ion-button full class="send-mail"
+              (click)="sendMail()" style="background-color: transparent; padding: 0">
+        Posez nous une question !
+      </button>
+
+    </div>
+  </div>
+
+
+</ion-content>

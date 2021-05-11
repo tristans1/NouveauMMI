@@ -1,0 +1,7 @@
+{
+  "name": "NouveauMMI",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

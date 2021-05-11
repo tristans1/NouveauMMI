@@ -1,0 +1,165 @@
+page-home {
+
+  p,a,span,h1,h2{
+    color: white;
+  }
+
+  ion-header{
+    color: transparent;
+    background-color: transparent;
+    display: none;
+  }
+
+  .bar-buttons-ios{
+    position: absolute;
+    z-index: 10;
+    right: 2%;
+    background-color: transparent!important;
+    color: white;
+  }
+
+  body > ion-app > ng-component > ion-nav > page-home > ion-header > ion-navbar > button{
+    color: #2ec95c;
+
+  }
+
+  .button-ios.actived{
+    background-color: transparent!important;
+  }
+
+
+  .button-ios {
+    font-size: 2.4rem;
+    height: 5vh;
+    padding-right: 2.7%;
+  }
+
+  .bar-buttons{
+    color: white;
+  }
+
+  .presentation{
+    text-align: center;
+    background-image: url('../assets/imgs/backgroundaccueil.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    width: 109%;
+    margin-top: -4.2%;
+    margin-left: -17px!important;
+    height: 100vh;
+  }
+
+  .presentation > img{
+    width: 30%;
+    padding-top: 30%;
+  }
+
+  .presentation > img:nth-of-type(2){
+    width: 10%;
+  }
+
+  h1{
+    color: #ffffff;
+    font-size: 5rem;
+    padding: 5%;
+
+  }
+
+  .presentation > svg{
+    font-size: 3rem!important;
+    color: white!important;
+    margin-top: 60%;
+    animation: scroll 2s;
+    animation-iteration-count: infinite;
+  }
+
+
+
+  .explication{
+    height: 103vh;
+    background-color: #e62450 ;//#D83A2A;
+    width: 109%;
+    margin-left: -4.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  //.explication > div, .explication > section{
+  //  padding-right: 5%;
+  //  padding-left: 5%;
+  //}
+
+  .textepresentation{
+    padding-top: 15%;
+  }
+
+  .info{
+    padding-top: 17%;
+
+  }
+
+  .textepresentation > h2{
+    padding-top: 10%;
+  }
+
+  .mail{
+    padding-top: 17%;
+  }
+
+  .mail > button.button-ios{
+    margin-top: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-decoration: underline white;
+
+  }
+
+
+
+  body > ion-app > ng-component > ion-nav > page-home > ion-content > div.scroll-content{
+    padding: 0;
+    width: 101%;
+  }
+
+  .scroll-content{
+    padding-bottom: 0!important;
+  }
+
+  .send-mail span{
+    color: white;
+    background: #ef1a4a ;
+    text-decoration: underline #ef1a4a ;
+    border-radius: 15px;
+    border: white 1px solid;
+    padding-bottom: 1%;
+    font-weight: bold;
+  }
+
+
+
+  @keyframes scroll {
+    0% {
+      opacity: 0
+    }
+    0% {
+      margin-top: 60%
+    }
+    30% {
+      opacity: 1
+    }
+    90% {
+      margin-top: 70%
+    }
+    90% {
+      opacity: 0
+    }
+    100% {
+      margin-top: 70%
+    }
+    100% {
+      opacity: 0
+    }
+
+  }
+}

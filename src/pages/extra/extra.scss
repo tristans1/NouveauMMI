@@ -1,0 +1,67 @@
+page-extra {
+
+  .bar-buttons-ios {
+    position: absolute;
+    z-index: 10;
+    right: 2%;
+    background-color: transparent !important;
+    color: white;
+
+  }
+
+  body > ion-app > ng-component > ion-nav > page-home > ion-header > ion-navbar > button {
+    color: #2d2d2d;
+  }
+
+
+  .button-ios.actived {
+    background-color: transparent !important;
+  }
+
+
+  .button-ios {
+    font-size: 2.4rem;
+    height: 5vh;
+    padding-right: 2.7%;
+  }
+
+  .frigoTV, .defi48 {
+    padding-right: 5%;
+    width: 110%;
+    margin-left: -9%;
+    padding-left: 14%;
+    padding-top: 5%;
+    color: white;
+
+  }
+
+  h1 {
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    color: white;
+    width: 100%;
+    padding-top: 15%;
+  }
+
+  .scroll-content {
+    padding: 0 !important;
+    background-color: #e62450;
+  }
+
+  .defi48 > img {
+    max-width: 80%;
+    margin-left: 9%;
+    border: 0;
+  }
+
+  .frigoTV > img {
+    width: 81%;
+    margin-left: 9%;
+  }
+
+  .content-ios {
+    padding-bottom: 0 !important;
+  }
+
+
+}
